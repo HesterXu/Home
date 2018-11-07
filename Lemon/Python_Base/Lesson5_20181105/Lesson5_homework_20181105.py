@@ -5,27 +5,23 @@
 # @File     : Lesson5_homework_20181105.py
 # @Software : PyCharm
 
-'''
-1. 寻找10到12岁的小女孩加入球队（包含10，12），询问用户的性别（男：m），（女：f）和年龄，
-然后显示一条消息指出这个人是否可以加入球队，询问10次后，输出满足条件的总人数。
-'''
-count = 0
-for i in range(3):
-    gender = input("请输入用户的性别(男:m,女:f)：")
-    age = eval(input("请输入用户的年龄："))
-    if gender in 'f':
-        if 10 <= age <= 12:
-            print("这个用户可以加入球队")
-            count+=1
-        else:
-            print("这个用户不可以加入球队")
+login_info = {"admin":"root","user_1":"123456"}
+while True:
+    name = input("请输入用户名：")
+    if name not in login_info.keys():
+        print("请重新输入正确的用户名：")
     else:
-        print("这个用户不可以加入球队")
-print("满足条件的总人数是{}人".format(count))
-
-# 2. 利用冒泡循环，完成a=[1,7,4,89,34,2]的冒泡排序。
-a=[1,7,4,89,34,2]
-s = 1
-for i in range(a):
-    if s > i:
-        s,i = i,s
+        #
+        count = 0
+        while True:
+            pwd = print("请输入密码：")
+            if pwd == login_info[name]:
+                print("登陆成功")
+                break
+            else:
+                count += 1
+                print("密码错误，还有{}次机会，请重新输入密码：".format(3-count))
+                if count == 3:
+                   print("用户已被冻结！")
+                   break
+        break
