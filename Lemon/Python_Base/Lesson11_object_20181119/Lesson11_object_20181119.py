@@ -53,7 +53,7 @@ class RobotOne:
         print(self.name+"可以跟你进行简单交流") # 对象调用属性
         print(RobotOne.name+"可以跟你进行简单交流")  # 类名调用属性
         print(self.name,'业余爱好是:',self.hobby)
-        print(self.name, '业余爱好是:', self.kargs)
+        print(self.name, '业余爱好是:', self.kwargs)
 '''
 
 '''
