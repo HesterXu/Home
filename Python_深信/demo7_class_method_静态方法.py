@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
-# @Time     : 2018/11/19/19:46
+# @Time     : 2018/11/20/21:53
 # @Author   : Hester Xu
 # Email     : xuruizhu@yeah.net
-# @File     : demo7_class_object_静态方法.py
+# @File     : demo7_class_method_静态方法.py
 # @Software : PyCharm
 
 # 对象可以调用 对象方法、类方法、静态方法；类名称可以调用 类方法、静态方法
 # 静态方法
 '''
 class Person:
-    age = 20
-    @staticmethod
+    age = 20d
     def show():
+    @staticmetho
         print(Person.age)
 p = Person()
 # 静态方法使用@staticmethod来修饰
@@ -28,25 +28,4 @@ class Person:
 Person.show()  # hester 12   使用类名称或者实例对来调用静态方法
 p = Person()
 p.show()       # hester 12   使用实例对象来调用静态方法
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
