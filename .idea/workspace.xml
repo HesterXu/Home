@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3292394c-c70b-4e1e-8e9b-993a1f5b671d" name="Default" comment="  modify for 11230741">
-      <change afterPath="$PROJECT_DIR$/Lemon/Python_Base/Lesson13_unit_test_20181123/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lemon/Python_Base/Lesson13_unit_test_20181123/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lemon/Python_Base/Lesson13_unit_test_20181123/sai.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lemon/Python_Base/Lesson13_unit_test_20181123/unit_test_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lemon/Python_Base/Lesson13_unit_test_20181123/unit_test_02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lemon/Python_Base/Lesson13_unit_test_20181123/unit_test_03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lemon/Python_Base/Lesson13_unit_test_20181123/unit_test_04.py" afterDir="false" />
+    <list default="true" id="3292394c-c70b-4e1e-8e9b-993a1f5b671d" name="Default" comment="  modify for 1126--0744">
+      <change afterPath="$PROJECT_DIR$/Lemon/Python_Base/Lesson14_unittest_http_20181126/Lesson14_unittest_20181126.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lemon/Python_Base/Lesson14_unittest_http_20181126/Lesson14_接口.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lemon/Python_Base/Lesson14_unittest_http_20181126/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,25 +48,26 @@
     <session id="-1485675257">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.7" value="4" />
+          <entry key="project.open.time.7" value="5" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ipynb" value="1" />
-          <entry key="py" value="174" />
+          <entry key="py" value="177" />
           <entry key="pyi" value="1" />
           <entry key="spec" value="1" />
           <entry key="txt" value="1" />
@@ -80,27 +77,37 @@
         <counts>
           <entry key="IPNB" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="174" />
+          <entry key="Python" value="177" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="11" />
-          <entry key="py" value="23061" />
-          <entry key="txt" value="83" />
+          <entry key="py" value="23539" />
+          <entry key="txt" value="91" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="94" />
-          <entry key="Python" value="23061" />
+          <entry key="PLAIN_TEXT" value="102" />
+          <entry key="Python" value="23539" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson14_unittest_http_20181126/Lesson14_接口.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -121,9 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Lemon/interview_01.py" />
-        <option value="$PROJECT_DIR$/Lemon/Python_Base/demo.py" />
-        <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson10_object_20181117/homework_02.py" />
         <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson10_object_20181117/homework_01.py" />
         <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson10_object_20181117/homework_05.py" />
         <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson10_object_20181117/Lesson10_homework_20181117.py" />
@@ -172,14 +176,17 @@
         <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson13_unit_test_20181123/demo.py" />
         <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson13_unit_test_20181123/unit_test_02.py" />
         <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson13_unit_test_20181123/unit_test_01.py" />
+        <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson14_unittest_http_20181126/Lesson14_unittest_20181126.py" />
+        <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson14_unittest_http_20181126/myclass_homework_20181126.py" />
+        <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson14_unittest_http_20181126/Lesson14_接口.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="426" />
-    <option name="y" value="78" />
+    <option name="x" value="313" />
+    <option name="y" value="31" />
     <option name="width" value="1074" />
-    <option name="height" value="1023" />
+    <option name="height" value="1011" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -230,7 +237,7 @@
               <item name="MOOC" type="462c0819:PsiDirectoryNode" />
               <item name="Lemon" type="462c0819:PsiDirectoryNode" />
               <item name="Python_Base" type="462c0819:PsiDirectoryNode" />
-              <item name="Lesson13_unit_test_20181123" type="462c0819:PsiDirectoryNode" />
+              <item name="Lesson14_unittest_http_20181126" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MOOC" type="b2602c69:ProjectViewProjectNode" />
@@ -279,7 +286,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in unit_test_02.py">
+  <component name="RunManager" selected="Python.Lesson14_http_20181126">
+    <configuration name="Lesson14_http_20181126" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MOOC" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lemon/Python_Base/Lesson14_unittest_http_20181126" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lemon/Python_Base/Lesson14_unittest_http_20181126/Lesson14_http_20181126.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for unit_test_02.TestAdd" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="MOOC" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -291,20 +319,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;unit_test_02.TestAdd&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for unit_test_02.TestAdd.test_run" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="MOOC" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lemon/Python_Base/Lesson13_unit_test_20181123" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;unit_test_02.TestAdd.test_run&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -353,17 +367,17 @@
     <list>
       <item itemvalue="Python tests.Unittests for unit_test_02.TestSai" />
       <item itemvalue="Python tests.Unittests for unit_test_02.TestSai.test_add_two_negative" />
-      <item itemvalue="Python tests.Unittests for unit_test_02.TestAdd.test_run" />
       <item itemvalue="Python tests.Unittests for unit_test_02.TestAdd" />
       <item itemvalue="Python tests.Unittests in unit_test_02.py" />
+      <item itemvalue="Python.Lesson14_http_20181126" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Lesson14_http_20181126" />
         <item itemvalue="Python tests.Unittests in unit_test_02.py" />
         <item itemvalue="Python tests.Unittests for unit_test_02.TestAdd" />
         <item itemvalue="Python tests.Unittests for unit_test_02.TestSai" />
         <item itemvalue="Python tests.Unittests for unit_test_02.TestSai.test_add_two_negative" />
-        <item itemvalue="Python tests.Unittests for unit_test_02.TestAdd.test_run" />
       </list>
     </recent_temporary>
   </component>
@@ -553,7 +567,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542930110314</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="  modify for 1126--0744">
+      <created>1543189467501</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1543189467501</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -589,9 +610,9 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21604449" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30738682" />
       <window_info id="Structure" order="1" weight="0.2494043" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -653,7 +674,8 @@
     <MESSAGE value="  modify for 11220735" />
     <MESSAGE value="  modify for 11222309" />
     <MESSAGE value="  modify for 11230741" />
-    <option name="LAST_COMMIT_MESSAGE" value="  modify for 11230741" />
+    <MESSAGE value="  modify for 1126--0744" />
+    <option name="LAST_COMMIT_MESSAGE" value="  modify for 1126--0744" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -667,15 +689,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson11_object_20181119/Lesson11_继承_20181119.py" />
-    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson11_object_20181119/Lesson11_object_20181119.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson11_object_20181119/robot_one_01_对象方法.py" />
     <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson11_object_20181119/Lesson11_类外面调用方法和属性.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1650">
@@ -952,9 +965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-          <folding>
-            <marker date="1543189450249" expanded="true" signature="1031:1541" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -962,10 +972,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3703">
           <caret line="652" column="11" lean-forward="true" selection-start-line="652" selection-start-column="11" selection-end-line="652" selection-end-column="11" />
-          <folding>
-            <element signature="e#29977#30189#0" />
-            <element signature="e#30254#30579#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -973,9 +979,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <marker date="1542978853352" expanded="true" signature="166:171" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -983,12 +986,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <element signature="e#164#205#0" expanded="true" />
-            <marker date="1543189450236" expanded="true" signature="311:342" ph="..." />
-            <marker date="1543189450236" expanded="true" signature="311:697" ph="..." />
-            <marker date="1543189450236" expanded="true" signature="760:765" ph="..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson14_unittest_http_20181126/Lesson14_unittest_20181126.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson14_unittest_http_20181126/myclass_homework_20181126.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson14_unittest_http_20181126/Lesson14_接口.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
