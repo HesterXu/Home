@@ -17,27 +17,9 @@ class Myclass():
             res = requests.get(url, params, cookies=cookies)
         else:
             res = requests.post(url, params, cookies=cookies)
-        return res.json()['msg']
+        return res
 
 
-'''
-login = 'http://47.107.168.87:8080/futureloan/mvc/api/member/login'
-login_data = {'mobilephone': 18688773467, 'pwd': '123456'}
-r = Myclass()
-res_login = r.http_request(login, login_data, 'get')
-print(res_login)
-'''
-'''
-if __name__ == '__main__':
-    # 登陆
-    login = 'http://47.107.168.87:8080/futureloan/mvc/api/member/login'
-    login_data = {'mobilephone': 18688773467, 'pwd': '123456'}
-    res_login = Myclass().http_request(login, login_data, 'get')
-    print("登陆的结果是:", res_login.json())
-    print(res_login.json()['msg'])
-    # 充值
-    recharge = 'http://47.107.168.87:8080/futureloan/mvc/api/member/recharge'
-    recharge_data = {'mobilephone': 18688773467, 'amount': '1000'}
-    res_recharge = Myclass().http_request(recharge, recharge_data, 'post',res_login.cookies)
-    print("充值的结果是:", res_recharge.json())
-'''
+
+
+

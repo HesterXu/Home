@@ -1,0 +1,13 @@
+test_01_login_pass (Lemon.Python_Base.Lesson16_requests_20181130.homework_02.mytest_login) ... ok
+test_02_login_fail (Lemon.Python_Base.Lesson16_requests_20181130.homework_02.mytest_login) ... ok
+test_03_login_fail (Lemon.Python_Base.Lesson16_requests_20181130.homework_02.mytest_login) ... ok
+test_01_recharge_pass (Lemon.Python_Base.Lesson16_requests_20181130.homework_02.mytest_recharge) ... ok
+test_02_recharge_fail (Lemon.Python_Base.Lesson16_requests_20181130.homework_02.mytest_recharge) ... ok
+test_03_recharge_fail (Lemon.Python_Base.Lesson16_requests_20181130.homework_02.mytest_recharge) ... ok
+test_04_recharge_fail (Lemon.Python_Base.Lesson16_requests_20181130.homework_02.mytest_recharge) ... ok
+test_05_recharge_fail (Lemon.Python_Base.Lesson16_requests_20181130.homework_02.mytest_recharge) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.223s
+
+OK

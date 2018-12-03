@@ -7,7 +7,7 @@
 
 import requests
 
-login = 'http://47.107.168.87:8080/futureloan/mvc/api/member/login'
+login = 'http://47.107.168.8807:80/futureloan/mvc/api/member/login'
 login_data = {'mobilephone': 18688773467, 'pwd': '123456'}
 # 发送一个get请求
 login_res = requests.get(login,login_data)
