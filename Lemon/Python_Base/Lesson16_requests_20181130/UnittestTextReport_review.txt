@@ -1,0 +1,14 @@
+test_login (Lemon.Python_Base.Lesson16_requests_20181130.homework_review_02.TestHttpRequest) ... ok
+test_recharge (Lemon.Python_Base.Lesson16_requests_20181130.homework_review_02.TestHttpRequest) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.080s
+
+OK
+test_login (Lemon.Python_Base.Lesson16_requests_20181130.homework_review_02.TestHttpRequest) ... ok
+test_recharge (Lemon.Python_Base.Lesson16_requests_20181130.homework_review_02.TestHttpRequest) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.096s
+
+OK
