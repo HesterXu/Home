@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/homework_02.py" description="'''&#10;写一个http请求的类 然后完成单元测试&#10;1：利用requests模块，编写一个可以完成ht..." line="6" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3292394c-c70b-4e1e-8e9b-993a1f5b671d" name="Default" comment="  modify for 1203-0813">
-      <change afterPath="$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/UnittestTextReport.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lemon/Python_Exercise/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lemon/Python_Exercise/api_01_新闻头条接口.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lemon/Python_Exercise/api_02_历史上的今天接口.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lemon/Python_Exercise/api_03_天气接口.py" afterDir="false" />
+    <list default="true" id="3292394c-c70b-4e1e-8e9b-993a1f5b671d" name="Default" comment="  modify for 1203-1646">
+      <change afterPath="$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203/Lesson17_1130作业03_数据驱动延伸_do_excel_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Public/Public_SongQin/class_1204.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/Lesson16_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/Lesson16_03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/homework_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/homework_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/homework_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/homework_02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/homework_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/homework_03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/test_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/test_report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203/Lesson17_1130作业02_数据驱动延伸_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203/Lesson17_1130作业02_数据驱动延伸_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203/Lesson17_1130作业03_数据驱动延伸.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203/Lesson17_1130作业03_数据驱动延伸.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,10 +52,10 @@
     <session id="-1485675257">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="26" />
+          <entry key="project.closed" value="30" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.10" value="4" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.10" value="5" />
+          <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
@@ -68,19 +65,19 @@
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.7" value="6" />
-          <entry key="project.open.time.8" value="5" />
-          <entry key="project.opened" value="27" />
+          <entry key="project.open.time.8" value="6" />
+          <entry key="project.opened" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
           <entry key="ipynb" value="1" />
-          <entry key="py" value="266" />
+          <entry key="py" value="326" />
           <entry key="pyi" value="1" />
           <entry key="readme" value="3" />
           <entry key="spec" value="1" />
-          <entry key="txt" value="2" />
+          <entry key="txt" value="3" />
           <entry key="百度网盘链接" value="1" />
           <entry key="群公告链接" value="1" />
         </counts>
@@ -89,36 +86,64 @@
         <counts>
           <entry key="HTML" value="1" />
           <entry key="IPNB" value="1" />
-          <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="266" />
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="Python" value="326" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="11" />
-          <entry key="py" value="28631" />
+          <entry key="dummy" value="95" />
+          <entry key="py" value="33052" />
           <entry key="readme" value="321" />
-          <entry key="txt" value="104" />
+          <entry key="txt" value="116" />
           <entry key="百度网盘链接" value="358" />
           <entry key="群公告链接" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="834" />
-          <entry key="Python" value="28631" />
+          <entry key="PLAIN_TEXT" value="930" />
+          <entry key="Python" value="33052" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lemon/Python_Exercise/api_03_天气接口.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203/Lesson17_1130作业02_数据驱动延伸_v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="206">
+              <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+              <folding>
+                <element signature="e#187#202#0" expanded="true" />
+                <marker date="1543966278477" expanded="true" signature="351:367" ph="..." />
+                <marker date="1543966278477" expanded="true" signature="351:374" ph="..." />
+                <marker date="1543966278477" expanded="true" signature="379:473" ph="..." />
+                <marker date="1543966278477" expanded="true" signature="620:638" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203/Lesson17_1130作业03_数据驱动延伸.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1324">
+              <caret line="66" selection-end-line="66" />
+              <folding>
+                <element signature="e#175#190#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203/Lesson17_1130作业03_数据驱动延伸_do_excel_v2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -144,19 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python_深信/demo8_class_method_Person类的方法_案例.py" />
-        <option value="$PROJECT_DIR$/Python_深信/demo8_object_init_01.py" />
-        <option value="$PROJECT_DIR$/Python_深信/demo9_object_init.py" />
-        <option value="$PROJECT_DIR$/Python_深信/demo10_object_init.py" />
-        <option value="$PROJECT_DIR$/Python_深信/demo11_object_init.py" />
-        <option value="$PROJECT_DIR$/Python_深信/demo12_class_inherit.py" />
-        <option value="$PROJECT_DIR$/Public/Public_Lemon/class_01_基础语法.py" />
-        <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson12_object_20181121/Lesson12_object_20181121.py" />
-        <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson12_object_20181121/Lesson12_object.py" />
-        <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson12_object_20181121/Lesson12_homework_20181121.py" />
-        <option value="$PROJECT_DIR$/Py_Mooc/Py_400_1/Unit6.py" />
-        <option value="$PROJECT_DIR$/Py_Mooc/Py_400_1/Unit6_object/class01_object.py" />
-        <option value="$PROJECT_DIR$/Py_Mooc/Py_400_1/Unit6_object/class_init.py" />
         <option value="$PROJECT_DIR$/Py_Mooc/Py_400_1/Unit6_object/class02_class.py" />
         <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson10_object_20181117/homework_03.py" />
         <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson12_object作业_20181121/Lesson12_object_20181121.py" />
@@ -187,7 +199,6 @@
         <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/Lesson16_04.py" />
         <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/homework_03.py" />
         <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/homework_01.py" />
-        <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/homework_02.py" />
         <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/Lesson_05.py" />
         <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/Lesson16_03.py" />
         <option value="$PROJECT_DIR$/Lemon/Python_Exercise/api_新闻头条/demo1.py" />
@@ -195,12 +206,26 @@
         <option value="$PROJECT_DIR$/Lemon/Python_Exercise/api_02_历史上的今天接口.py" />
         <option value="$PROJECT_DIR$/Lemon/Python_Exercise/api_03_天气预报接口.py" />
         <option value="$PROJECT_DIR$/Lemon/Python_Exercise/api_03_天气接口.py" />
+        <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203/Lesson17_01.py" />
+        <option value="$PROJECT_DIR$/Public/Public_SongQin/class_1204.py" />
+        <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/homework_review_01.py" />
+        <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/homework_02.py" />
+        <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/homework_review_03.py" />
+        <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203/Lesson17_数据驱动延伸_02.py" />
+        <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203/Lesson17_数据驱动延伸_03.py" />
+        <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203/Lesson17_数据驱动延伸_01.py" />
+        <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/homework_review_02.py" />
+        <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203/Lesson17_1130作业02_数据驱动延伸.py" />
+        <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203/Lesson17_1130作业01_数据驱动延伸.py" />
+        <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203/Lesson17_1130作业02_数据驱动延伸_v2.py" />
+        <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203/Lesson17_1130作业03_数据驱动延伸.py" />
+        <option value="$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203/Lesson17_1130作业03_数据驱动延伸_do_excel_v2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="712" />
-    <option name="y" value="85" />
+    <option name="x" value="711" />
+    <option name="y" value="84" />
     <option name="width" value="1074" />
     <option name="height" value="1011" />
   </component>
@@ -230,23 +255,52 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="MOOC" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="MOOC" type="b2602c69:ProjectViewProjectNode" />
               <item name="MOOC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MOOC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MOOC" type="462c0819:PsiDirectoryNode" />
+              <item name="Lemon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MOOC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MOOC" type="462c0819:PsiDirectoryNode" />
+              <item name="Lemon" type="462c0819:PsiDirectoryNode" />
+              <item name="Python_Base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MOOC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MOOC" type="462c0819:PsiDirectoryNode" />
+              <item name="Lemon" type="462c0819:PsiDirectoryNode" />
+              <item name="Python_Base" type="462c0819:PsiDirectoryNode" />
+              <item name="Lesson17_do_excel_20181203" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MOOC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MOOC" type="462c0819:PsiDirectoryNode" />
+              <item name="Public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MOOC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MOOC" type="462c0819:PsiDirectoryNode" />
+              <item name="Public" type="462c0819:PsiDirectoryNode" />
+              <item name="Public_SongQin" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="MOOC" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
           </expand>
           <select />
@@ -279,8 +333,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.api_03_天气接口">
-    <configuration name="Lesson_05" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Lesson17_1130作业03_数据驱动延伸">
+    <configuration name="Lesson17_1130作业03_数据驱动延伸" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MOOC" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -288,11 +342,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/Lesson_05.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203/Lesson17_1130作业03_数据驱动延伸.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -301,104 +355,76 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="api_02_历史上的今天接口" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for Lesson17_1130作业02_数据驱动延伸.TestHttpRequest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="MOOC" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lemon/Python_Exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lemon/Python_Exercise/api_02_历史上的今天接口.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Lesson17_1130作业02_数据驱动延伸.TestHttpRequest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="api_03_天气预报接口" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for Lesson17_1130作业02_数据驱动延伸_v2.TestHttpRequest.test_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="MOOC" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lemon/Python_Exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lemon/Python_Exercise/api_03_天气预报接口.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Lesson17_1130作业02_数据驱动延伸_v2.TestHttpRequest.test_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="api_03_天气接口" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests in Lesson17_1130作业02_数据驱动延伸.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="MOOC" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lemon/Python_Exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lemon/Python_Exercise/api_03_天气接口.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203/Lesson17_1130作业02_数据驱动延伸.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="demo1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests in Lesson17_1130作业02_数据驱动延伸_v2.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="MOOC" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lemon/Python_Exercise/api_新闻头条" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lemon/Python_Exercise/api_新闻头条/demo1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203/Lesson17_1130作业02_数据驱动延伸_v2.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Lesson_05" />
-      <item itemvalue="Python.demo1" />
-      <item itemvalue="Python.api_02_历史上的今天接口" />
-      <item itemvalue="Python.api_03_天气预报接口" />
-      <item itemvalue="Python.api_03_天气接口" />
+      <item itemvalue="Python tests.Unittests in Lesson17_1130作业02_数据驱动延伸.py" />
+      <item itemvalue="Python tests.Unittests for Lesson17_1130作业02_数据驱动延伸.TestHttpRequest" />
+      <item itemvalue="Python tests.Unittests in Lesson17_1130作业02_数据驱动延伸_v2.py" />
+      <item itemvalue="Python.Lesson17_1130作业03_数据驱动延伸" />
+      <item itemvalue="Python tests.Unittests for Lesson17_1130作业02_数据驱动延伸_v2.TestHttpRequest.test_login" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.api_03_天气接口" />
-        <item itemvalue="Python.api_03_天气预报接口" />
-        <item itemvalue="Python.api_02_历史上的今天接口" />
-        <item itemvalue="Python.demo1" />
-        <item itemvalue="Python.Lesson_05" />
+        <item itemvalue="Python.Lesson17_1130作业03_数据驱动延伸" />
+        <item itemvalue="Python tests.Unittests in Lesson17_1130作业02_数据驱动延伸_v2.py" />
+        <item itemvalue="Python tests.Unittests for Lesson17_1130作业02_数据驱动延伸_v2.TestHttpRequest.test_login" />
+        <item itemvalue="Python tests.Unittests in Lesson17_1130作业02_数据驱动延伸.py" />
+        <item itemvalue="Python tests.Unittests for Lesson17_1130作业02_数据驱动延伸.TestHttpRequest" />
       </list>
     </recent_temporary>
   </component>
@@ -616,50 +642,64 @@
       <option name="project" value="LOCAL" />
       <updated>1543796027604</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="  modify for 1203-1646">
+      <created>1543826785513</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1543826785513</updated>
+    </task>
+    <task id="LOCAL-00031" summary="  modify for 1204-2238">
+      <created>1543934317319</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1543934317319</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_homework_02_mytest_login_test_02_login_fail - 2018.12.03 at 11h 13m 58s.xml">
-      <configuration name="Unittests for homework_02.mytest_login.test_02_login_fail" configurationId="tests" />
+    <history-entry file="Unittests_in_Lesson17_1130作业02_数据驱动延伸_py - 2018.12.04 at 21h 48m 47s.xml">
+      <configuration name="Unittests in Lesson17_1130作业02_数据驱动延伸.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_homework_02_mytest_login_test_02_login_fail - 2018.12.03 at 11h 14m 48s.xml">
-      <configuration name="Unittests for homework_02.mytest_login.test_02_login_fail" configurationId="tests" />
+    <history-entry file="Unittests_in_Lesson17_1130作业02_数据驱动延伸_py - 2018.12.04 at 21h 50m 25s.xml">
+      <configuration name="Unittests in Lesson17_1130作业02_数据驱动延伸.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_homework_02_mytest_login - 2018.12.03 at 11h 14m 57s.xml">
-      <configuration name="Unittests for homework_02.mytest_login" configurationId="tests" />
+    <history-entry file="Unittests_in_Lesson17_1130作业02_数据驱动延伸_py - 2018.12.04 at 21h 50m 53s.xml">
+      <configuration name="Unittests in Lesson17_1130作业02_数据驱动延伸.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_homework_02_mytest_recharge_test_01_recharge_pass - 2018.12.03 at 11h 18m 17s.xml">
-      <configuration name="Unittests for homework_02.mytest_recharge.test_01_recharge_pass" configurationId="tests" />
+    <history-entry file="Unittests_in_Lesson17_1130作业02_数据驱动延伸_py - 2018.12.04 at 21h 51m 18s.xml">
+      <configuration name="Unittests in Lesson17_1130作业02_数据驱动延伸.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_homework_02_mytest_recharge_test_02_recharge_fail - 2018.12.03 at 11h 20m 16s.xml">
-      <configuration name="Unittests for homework_02.mytest_recharge.test_02_recharge_fail" configurationId="tests" />
+    <history-entry file="Unittests_in_Lesson17_1130作业02_数据驱动延伸_py - 2018.12.04 at 21h 51m 41s.xml">
+      <configuration name="Unittests in Lesson17_1130作业02_数据驱动延伸.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_homework_02_mytest_recharge_test_01_recharge_pass - 2018.12.03 at 11h 23m 04s.xml">
-      <configuration name="Unittests for homework_02.mytest_recharge.test_01_recharge_pass" configurationId="tests" />
+    <history-entry file="Unittests_in_Lesson17_1130作业02_数据驱动延伸_v2_py - 2018.12.04 at 21h 54m 49s.xml">
+      <configuration name="Unittests in Lesson17_1130作业02_数据驱动延伸_v2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_homework_02_mytest_recharge_test_04_recharge_fail - 2018.12.03 at 11h 24m 40s.xml">
-      <configuration name="Unittests for homework_02.mytest_recharge.test_04_recharge_fail" configurationId="tests" />
+    <history-entry file="Unittests_in_Lesson17_1130作业02_数据驱动延伸_v2_py - 2018.12.04 at 22h 03m 15s.xml">
+      <configuration name="Unittests in Lesson17_1130作业02_数据驱动延伸_v2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_homework_02_mytest_recharge_test_04_recharge_fail - 2018.12.03 at 11h 25m 21s.xml">
-      <configuration name="Unittests for homework_02.mytest_recharge.test_04_recharge_fail" configurationId="tests" />
+    <history-entry file="Unittests_in_Lesson17_1130作业02_数据驱动延伸_v2_py - 2018.12.04 at 22h 06m 12s.xml">
+      <configuration name="Unittests in Lesson17_1130作业02_数据驱动延伸_v2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_homework_02_mytest_recharge_test_05_recharge_fail - 2018.12.03 at 11h 27m 01s.xml">
-      <configuration name="Unittests for homework_02.mytest_recharge.test_05_recharge_fail" configurationId="tests" />
+    <history-entry file="Unittests_in_Lesson17_1130作业02_数据驱动延伸_v2_py - 2018.12.05 at 06h 38m 12s.xml">
+      <configuration name="Unittests in Lesson17_1130作业02_数据驱动延伸_v2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_homework_02_mytest_recharge_test_03_recharge_fail - 2018.12.03 at 11h 29m 42s.xml">
-      <configuration name="Unittests for homework_02.mytest_recharge.test_03_recharge_fail" configurationId="tests" />
+    <history-entry file="Unittests_in_Lesson17_1130作业02_数据驱动延伸_v2_py - 2018.12.05 at 06h 44m 03s.xml">
+      <configuration name="Unittests in Lesson17_1130作业02_数据驱动延伸_v2.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2192216" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33280382" />
       <window_info id="Structure" order="1" weight="0.2494043" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3232682" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49726775" visible="true" weight="0.4724689" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.20248668" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49726775" weight="0.0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -674,12 +714,12 @@
       <window_info anchor="right" id="Data View" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2192216" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33280382" />
       <window_info id="Structure" order="1" weight="0.2494043" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3232682" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49726775" visible="true" weight="0.3179396" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.20248668" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49726775" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -719,10 +759,15 @@
     <MESSAGE value="  modify for 1126--0744" />
     <MESSAGE value="  modify for 1128--2227" />
     <MESSAGE value="  modify for 1203-0813" />
-    <option name="LAST_COMMIT_MESSAGE" value="  modify for 1203-0813" />
+    <MESSAGE value="  modify for 1203-1646" />
+    <MESSAGE value="  modify for 1204-2238" />
+    <option name="LAST_COMMIT_MESSAGE" value="  modify for 1204-2238" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -733,118 +778,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson10_object_20181117/homework_02_人机大战_review.py" />
-    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson10_object_20181117/homework_03.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson12_object作业_20181121/Lesson12_object_20181121.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson10_object_20181117/homework_04.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="7" selection-start-line="7" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson7_20181109/Lesson7_function_20181109.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson6_function_20181107/Lesson6_function_20181107.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson13_unit_test_20181123/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files (x86)/Python34/Lib/unittest/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files (x86)/Python34/Lib/unittest/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-788">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files (x86)/Python34/Lib/unittest/__main__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson14_unittest_http_20181126/Lesson14_unittest_20181126.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson14_unittest_http_20181126/test_report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson14_unittest_http_20181126/Lesson14_接口.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson14_unittest_http_20181126/Lesson14_http_20181126.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson15_接口相关_20181128/Lesson15_20181128.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="9" selection-start-line="9" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/URL/群公告链接">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/URL/百度网盘链接">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/hom.py" />
     <entry file="file://D:/Program Files (x86)/Python34/Lib/sre_parse.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -856,9 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16456">
           <caret line="748" column="14" lean-forward="true" selection-start-line="748" selection-start-column="14" selection-end-line="748" selection-end-column="14" />
-          <folding>
-            <element signature="e#179#188#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -866,9 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="871" lean-forward="true" selection-start-line="871" selection-end-line="871" />
-          <folding>
-            <element signature="e#129#144#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -928,20 +855,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Program Files (x86)/Python34/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson14_unittest_http_20181126/unittest_homework_20181126.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#295#310#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -952,9 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="45" selection-start-line="45" selection-end-line="45" selection-end-column="15" />
-          <folding>
-            <element signature="e#168#183#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -965,20 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/homework_01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/Lesson16_20181130.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/Lesson_05.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -986,33 +886,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/homework_02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <marker date="1543809298696" expanded="true" signature="436:437" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/homework_03.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="e#175#190#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Program Files (x86)/Python34/Lib/site-packages/requests/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="e#871#885#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1023,13 +900,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lemon/Python_Exercise/api_新闻头条/demo1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Lemon/Python_Exercise/api_新闻头条/demo1.py" />
     <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/Lesson16_03.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -1051,13 +922,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Program Files (x86)/Python34/Lib/site-packages/requests/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="973">
-          <caret line="71" column="7" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Program Files (x86)/Python34/Lib/site-packages/requests/cookies.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1072,13 +936,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lemon/Python_Exercise/api_03_天气预报接口.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="4" selection-start-line="4" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Lemon/Python_Exercise/api_03_天气预报接口.py" />
     <entry file="file://D:/Program Files (x86)/Python34/Lib/json/decoder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -1088,8 +946,167 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lemon/Python_Exercise/api_03_天气接口.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="379">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/Python34/Lib/unittest/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2838">
+          <caret line="143" column="24" lean-forward="true" selection-start-line="143" selection-start-column="24" selection-end-line="143" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Public_SongQin/class_1204.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/Python34/Lib/site-packages/requests/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/homework_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/Python34/Lib/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/UnittestTextReport_review.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/homework_03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203/Lesson17_01.py" />
+    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203/Lesson17_数据驱动延伸_02.py" />
+    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203/Lesson17_数据驱动延伸_03.py" />
+    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203/Lesson17_数据驱动延伸_01.py" />
+    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/homework_review_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" lean-forward="true" selection-start-line="6" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/homework_02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/Lesson16_20181130.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/homework_review_03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson16_requests_20181130/homework_review_02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <element signature="e#176#191#0" expanded="true" />
+            <marker date="1543930975636" expanded="true" signature="343:348" ph="..." />
+            <marker date="1543930975636" expanded="true" signature="401:419" ph="..." />
+            <marker date="1543930975636" expanded="true" signature="1210:1214" ph="..." />
+            <marker date="1543930975636" expanded="true" signature="1210:1219" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/Python34/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="319" column="14" lean-forward="true" selection-start-line="319" selection-start-column="14" selection-end-line="319" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/Python34/Lib/unittest/suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="e#17#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/Python34/Lib/unittest/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203/Lesson17_1130作业01_数据驱动延伸.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203/Lesson17_1130作业02_数据驱动延伸.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1342">
+          <caret line="61" column="39" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
+          <folding>
+            <element signature="e#207#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203/Lesson17_1130作业02_数据驱动延伸_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding>
+            <element signature="e#187#202#0" expanded="true" />
+            <marker date="1543966278477" expanded="true" signature="351:367" ph="..." />
+            <marker date="1543966278477" expanded="true" signature="351:374" ph="..." />
+            <marker date="1543966278477" expanded="true" signature="379:473" ph="..." />
+            <marker date="1543966278477" expanded="true" signature="620:638" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203/Lesson17_1130作业03_数据驱动延伸.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1324">
+          <caret line="66" selection-end-line="66" />
+          <folding>
+            <element signature="e#175#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lemon/Python_Base/Lesson17_do_excel_20181203/Lesson17_1130作业03_数据驱动延伸_do_excel_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
         </state>
       </provider>
     </entry>
