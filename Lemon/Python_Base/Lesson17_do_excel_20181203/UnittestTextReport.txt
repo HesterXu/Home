@@ -1,0 +1,43 @@
+test_login (Lemon.Python_Base.Lesson17_do_excel_20181203.Lesson17_1130作业02_数据驱动延伸_v2.TestHttpRequest) ... ok
+test_login (Lemon.Python_Base.Lesson17_do_excel_20181203.Lesson17_1130作业02_数据驱动延伸_v2.TestHttpRequest) ... FAIL
+test_login (Lemon.Python_Base.Lesson17_do_excel_20181203.Lesson17_1130作业02_数据驱动延伸_v2.TestHttpRequest) ... FAIL
+
+======================================================================
+FAIL: test_login (Lemon.Python_Base.Lesson17_do_excel_20181203.Lesson17_1130作业02_数据驱动延伸_v2.TestHttpRequest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Project\MOOC\Lemon\Python_Base\Lesson17_do_excel_20181203\Lesson17_1130作业02_数据驱动延伸_v2.py", line 41, in test_login
+    raise e
+  File "D:\Project\MOOC\Lemon\Python_Base\Lesson17_do_excel_20181203\Lesson17_1130作业02_数据驱动延伸_v2.py", line 37, in test_login
+    self.assertEqual('10001', res_login.json()['code'])  # 这里的self怎么用？复盘复盘复盘！！！
+AssertionError: '10001' != '20111'
+- 10001
++ 20111
+
+
+======================================================================
+FAIL: test_login (Lemon.Python_Base.Lesson17_do_excel_20181203.Lesson17_1130作业02_数据驱动延伸_v2.TestHttpRequest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Project\MOOC\Lemon\Python_Base\Lesson17_do_excel_20181203\Lesson17_1130作业02_数据驱动延伸_v2.py", line 41, in test_login
+    raise e
+  File "D:\Project\MOOC\Lemon\Python_Base\Lesson17_do_excel_20181203\Lesson17_1130作业02_数据驱动延伸_v2.py", line 37, in test_login
+    self.assertEqual('10001', res_login.json()['code'])  # 这里的self怎么用？复盘复盘复盘！！！
+AssertionError: '10001' != '20111'
+- 10001
++ 20111
+
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.099s
+
+FAILED (failures=2)
+test_api (Lemon.Python_Base.Lesson17_do_excel_20181203.Lesson17_1130作业02_数据驱动延伸_v2.TestHttpRequest) ... ok
+test_api (Lemon.Python_Base.Lesson17_do_excel_20181203.Lesson17_1130作业02_数据驱动延伸_v2.TestHttpRequest) ... ok
+test_api (Lemon.Python_Base.Lesson17_do_excel_20181203.Lesson17_1130作业02_数据驱动延伸_v2.TestHttpRequest) ... ok
+test_api (Lemon.Python_Base.Lesson17_do_excel_20181203.Lesson17_1130作业02_数据驱动延伸_v2.TestHttpRequest) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.119s
+
+OK

@@ -1,0 +1,11 @@
+test_api (Lemon.Python_Base.Lesson17_do_excel_20181203.Lesson17_homework.Lesson17_homework_02.TestHttpRequest) ... ok
+test_api (Lemon.Python_Base.Lesson17_do_excel_20181203.Lesson17_homework.Lesson17_homework_02.TestHttpRequest) ... ok
+test_api (Lemon.Python_Base.Lesson17_do_excel_20181203.Lesson17_homework.Lesson17_homework_02.TestHttpRequest) ... ok
+test_api (Lemon.Python_Base.Lesson17_do_excel_20181203.Lesson17_homework.Lesson17_homework_02.TestHttpRequest) ... ok
+test_api (Lemon.Python_Base.Lesson17_do_excel_20181203.Lesson17_homework.Lesson17_homework_02.TestHttpRequest) ... ok
+test_api (Lemon.Python_Base.Lesson17_do_excel_20181203.Lesson17_homework.Lesson17_homework_02.TestHttpRequest) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.153s
+
+OK

@@ -38,6 +38,25 @@ for item in test_data:   # for循环，复盘！！！
                                   item['expected'],
                                   'test_api'))
 
+# 将结果输出到txt文件中
+with open('UnittestTextReport_v2.txt','a') as f:
+    runner = unittest.TextTestRunner(stream = f,verbosity = 2)
+    runner.run(suite)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # 第2种方法：loader 从测试类里面添加用例
 # suite = unittest.TestSuite()
 # loader = unittest.TestLoader()
@@ -52,15 +71,15 @@ for item in test_data:   # for循环，复盘！！！
 # runner = unittest.TextTestRunner() # 创建对象runner，执行用例的执行者
 # runner.run(suite)
 
-# 将结果输出到txt文件中
-# with open('UnittestTextReport.txt','a') as f:
-#     runner = unittest.TextTestRunner(stream = f,verbosity = 2)
-#     runner.run(suite)
 
-# 生成html报告
-with open('test_report.html','wb+') as f:
-    runner = HTMLTestRunner.HTMLTestRunner(stream = f,
-                                           title='Http Request Report',
-                                           description = 'Python12-Hester',
-                                           verbosity = 2)
-    runner.run(suite)
+
+#
+# # 生成html报告
+# with open('test_report.html','wb+') as f:
+#     runner = HTMLTestRunner.HTMLTestRunner(stream = f,
+#                                            title='Http Request Report',
+#                                            description = 'Python12-Hester',
+#                                            verbosity = 2)
+#     runner.run(suite)
+#
+

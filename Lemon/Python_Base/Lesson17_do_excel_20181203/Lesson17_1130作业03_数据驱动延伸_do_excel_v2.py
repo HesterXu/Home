@@ -7,7 +7,7 @@
 
 # do_excel
 import unittest
-import HTMLTestRunner
+import HTMLTestRunnerNew
 import openpyxl
 from Lemon.Python_Base.Lesson17_do_excel_20181203.Lesson17_1130作业02_数据驱动延伸_v2 import TestHttpRequest
 
@@ -39,7 +39,7 @@ for item in test_data:   # for循环，复盘！！！
 
 # 生成html报告
 with open('test_report.html_v2','wb+') as f:
-    runner = HTMLTestRunner.HTMLTestRunner(stream = f,
+    runner = HTMLTestRunnerNew.HTMLTestRunner(stream = f,
                                            title='Http Request Report',
                                            description = 'Python12-Hester',
                                            verbosity = 2)

@@ -1,0 +1,240 @@
+%(asctime)s-INFO-my_log.py-hester-日志信息:目前正在执行第1条用例：正常登录
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查URL地址--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查param参数--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:param:{'mobilephone': 18688773467, 'pwd': '123456'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:请求结果是：{'data': None, 'status': 1, 'msg': '登录成功', 'code': '10001'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:目前正在执行第2条用例：输入错误密码
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查URL地址--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查param参数--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:param:{'mobilephone': 18688773467, 'pwd': '123456789'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:请求结果是：{'data': None, 'status': 0, 'msg': '用户名或密码错误', 'code': '20111'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:目前正在执行第3条用例：输入错误手机号
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查URL地址--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查param参数--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:param:{'mobilephone': 13522332315, 'pwd': '123456'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:请求结果是：{'data': None, 'status': 0, 'msg': '用户名或密码错误', 'code': '20111'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:目前正在执行第4条用例：充值成功
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查URL地址--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/recharge
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查param参数--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:param:{'mobilephone': 18688773467, 'amount': '1000'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:请求结果是：{'data': {'type': '1', 'mobilephone': '18688773467', 'regname': 'test huahua', 'regtime': '2018-08-13 16:17:16.0', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'id': 24537, 'leaveamount': '5867263127.29'}, 'status': 1, 'msg': '充值成功', 'code': '10001'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:目前正在执行第5条用例：输入错误手机号
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查URL地址--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/recharge
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查param参数--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:param:{'mobilephone': 1868877346789, 'amount': '1000'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:请求结果是：{'data': None, 'status': 0, 'msg': '手机号码格式不正确', 'code': '20109'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:目前正在执行第6条用例：充值金额为负数
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查URL地址--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/recharge
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查param参数--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:param:{'mobilephone': 18688773467, 'amount': '-10'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:请求结果是：{'data': None, 'status': 0, 'msg': '请输入范围在0到50万之间的正数金额', 'code': '20117'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:目前正在执行第1条用例：正常登录
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查URL地址--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查param参数--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:param:{'mobilephone': 18688773467, 'pwd': '123456'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:请求结果是：{'data': None, 'status': 1, 'msg': '登录成功', 'code': '10001'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:目前正在执行第2条用例：输入错误密码
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查URL地址--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查param参数--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:param:{'mobilephone': 18688773467, 'pwd': '123456789'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:请求结果是：{'data': None, 'status': 0, 'msg': '用户名或密码错误', 'code': '20111'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:目前正在执行第3条用例：输入错误手机号
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查URL地址--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查param参数--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:param:{'mobilephone': 13522332315, 'pwd': '123456'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:请求结果是：{'data': None, 'status': 0, 'msg': '用户名或密码错误', 'code': '20111'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:目前正在执行第4条用例：充值成功
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查URL地址--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/recharge
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查param参数--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:param:{'mobilephone': 18688773467, 'amount': '1000'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:请求结果是：{'data': {'type': '1', 'mobilephone': '18688773467', 'regname': 'test huahua', 'regtime': '2018-08-13 16:17:16.0', 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'id': 24537, 'leaveamount': '5867264127.29'}, 'status': 1, 'msg': '充值成功', 'code': '10001'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:目前正在执行第5条用例：输入错误手机号
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查URL地址--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/recharge
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查param参数--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:param:{'mobilephone': 1868877346789, 'amount': '1000'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:请求结果是：{'data': None, 'status': 0, 'msg': '手机号码格式不正确', 'code': '20109'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:目前正在执行第6条用例：充值金额为负数
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查URL地址--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/recharge
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查param参数--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:param:{'mobilephone': 18688773467, 'amount': '-10'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:请求结果是：{'data': None, 'status': 0, 'msg': '请输入范围在0到50万之间的正数金额', 'code': '20117'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:目前正在执行第1条用例：正常登录
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查URL地址--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查param参数--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:param:{'mobilephone': 18688773467, 'pwd': '123456'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:请求结果是：{'status': 1, 'data': None, 'code': '10001', 'msg': '登录成功'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:目前正在执行第2条用例：输入错误密码
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查URL地址--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查param参数--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:param:{'mobilephone': 18688773467, 'pwd': '123456789'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:请求结果是：{'status': 0, 'data': None, 'code': '20111', 'msg': '用户名或密码错误'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:目前正在执行第3条用例：输入错误手机号
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查URL地址--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查param参数--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:param:{'mobilephone': 13522332315, 'pwd': '123456'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:请求结果是：{'status': 0, 'data': None, 'code': '20111', 'msg': '用户名或密码错误'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:目前正在执行第4条用例：充值成功
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查URL地址--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/recharge
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查param参数--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:param:{'mobilephone': 18688773467, 'amount': '1000'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:请求结果是：{'status': 1, 'data': {'mobilephone': '18688773467', 'id': 24537, 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'type': '1', 'regtime': '2018-08-13 16:17:16.0', 'regname': 'test huahua', 'leaveamount': '5867265127.29'}, 'code': '10001', 'msg': '充值成功'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:目前正在执行第5条用例：输入错误手机号
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查URL地址--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/recharge
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查param参数--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:param:{'mobilephone': 1868877346789, 'amount': '1000'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:请求结果是：{'status': 0, 'data': None, 'code': '20109', 'msg': '手机号码格式不正确'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:目前正在执行第6条用例：充值金额为负数
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查URL地址--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/recharge
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查param参数--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:param:{'mobilephone': 18688773467, 'amount': '-10'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:请求结果是：{'status': 0, 'data': None, 'code': '20117', 'msg': '请输入范围在0到50万之间的正数金额'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:目前正在执行第1条用例：正常登录
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查URL地址--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查param参数--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:param:{'mobilephone': 18688773467, 'pwd': '123456'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:请求结果是：{'status': 1, 'data': None, 'code': '10001', 'msg': '登录成功'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:目前正在执行第2条用例：输入错误密码
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查URL地址--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查param参数--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:param:{'mobilephone': 18688773467, 'pwd': '123456789'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:请求结果是：{'status': 0, 'data': None, 'code': '20111', 'msg': '用户名或密码错误'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:目前正在执行第3条用例：输入错误手机号
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查URL地址--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/login
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查param参数--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:param:{'mobilephone': 13522332315, 'pwd': '123456'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:请求结果是：{'status': 0, 'data': None, 'code': '20111', 'msg': '用户名或密码错误'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:目前正在执行第4条用例：充值成功
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查URL地址--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/recharge
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查param参数--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:param:{'mobilephone': 18688773467, 'amount': '1000'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:请求结果是：{'status': 1, 'data': {'mobilephone': '18688773467', 'id': 24537, 'pwd': 'E10ADC3949BA59ABBE56E057F20F883E', 'type': '1', 'regtime': '2018-08-13 16:17:16.0', 'regname': 'test huahua', 'leaveamount': '5867266127.29'}, 'code': '10001', 'msg': '充值成功'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:目前正在执行第5条用例：输入错误手机号
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查URL地址--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/recharge
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查param参数--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:param:{'mobilephone': 1868877346789, 'amount': '1000'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:请求结果是：{'status': 0, 'data': None, 'code': '20109', 'msg': '手机号码格式不正确'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:目前正在执行第6条用例：充值金额为负数
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查URL地址--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:url:http://47.107.168.87:8080/futureloan/mvc/api/member/recharge
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始检查param参数--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:param:{'mobilephone': 18688773467, 'amount': '-10'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束http请求--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:请求结果是：{'status': 0, 'data': None, 'code': '20117', 'msg': '请输入范围在0到50万之间的正数金额'}
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------开始断言--------------------------
+%(asctime)s-INFO-my_log.py-hester-日志信息:-----------------------结束断言--------------------------

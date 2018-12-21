@@ -1,0 +1,7 @@
+test_001_login (Lemon.Python_Base.Python_homework.作业1130_http类_单元测试.test_http_request_v1.TestHttpRequest) ... ok
+test_002_recharge (Lemon.Python_Base.Python_homework.作业1130_http类_单元测试.test_http_request_v1.TestHttpRequest) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.074s
+
+OK

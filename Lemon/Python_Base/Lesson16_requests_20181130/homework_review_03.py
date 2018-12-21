@@ -8,7 +8,7 @@
 # 测试集，执行用例,测试报告
 
 import unittest
-import HTMLTestRunner
+import HTMLTestRunnerNew
 # 第1，2种方法的导入： import测试类
 # from Lemon.Python_Base.Lesson16_requests_20181130.homework_review_02 import TestHttpRequest
 # 第3种方法的导入：    import模块
@@ -41,7 +41,7 @@ suite.addTest(loader.loadTestsFromModule(homework_review_02))
 
 # 生成html报告
 with open('test_report_review.html','wb+') as f:
-    runner = HTMLTestRunner.HTMLTestRunner(stream = f,
+    runner = HTMLTestRunnerNew.HTMLTestRunner(stream = f,
                                            title='Http Request Report',
                                            description = 'Python12-Hester',
                                            verbosity = 2)

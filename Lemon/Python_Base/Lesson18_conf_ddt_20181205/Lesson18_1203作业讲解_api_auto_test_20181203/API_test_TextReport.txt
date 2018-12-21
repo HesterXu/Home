@@ -1,0 +1,376 @@
+test_api (Lemon.Python_Base.Lesson18_conf_ddt_20181205.Lesson18_1203作业讲解_api_auto_test_20181203.test_http_request_20181205.TestHttpRequest) ... ERROR
+test_api (Lemon.Python_Base.Lesson18_conf_ddt_20181205.Lesson18_1203作业讲解_api_auto_test_20181203.test_http_request_20181205.TestHttpRequest) ... FAIL
+test_api (Lemon.Python_Base.Lesson18_conf_ddt_20181205.Lesson18_1203作业讲解_api_auto_test_20181203.test_http_request_20181205.TestHttpRequest) ... FAIL
+test_api (Lemon.Python_Base.Lesson18_conf_ddt_20181205.Lesson18_1203作业讲解_api_auto_test_20181203.test_http_request_20181205.TestHttpRequest) ... FAIL
+test_api (Lemon.Python_Base.Lesson18_conf_ddt_20181205.Lesson18_1203作业讲解_api_auto_test_20181203.test_http_request_20181205.TestHttpRequest) ... FAIL
+test_api (Lemon.Python_Base.Lesson18_conf_ddt_20181205.Lesson18_1203作业讲解_api_auto_test_20181203.test_http_request_20181205.TestHttpRequest) ... FAIL
+
+======================================================================
+ERROR: test_api (Lemon.Python_Base.Lesson18_conf_ddt_20181205.Lesson18_1203作业讲解_api_auto_test_20181203.test_http_request_20181205.TestHttpRequest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python34\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "D:\Program Files (x86)\Python34\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "D:\Program Files (x86)\Python34\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python34\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "D:\Program Files (x86)\Python34\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Program Files (x86)\Python34\lib\http\client.py", line 1137, in request
+    self._send_request(method, url, body, headers)
+  File "D:\Program Files (x86)\Python34\lib\http\client.py", line 1182, in _send_request
+    self.endheaders(body)
+  File "D:\Program Files (x86)\Python34\lib\http\client.py", line 1133, in endheaders
+    self._send_output(message_body)
+  File "D:\Program Files (x86)\Python34\lib\http\client.py", line 963, in _send_output
+    self.send(msg)
+  File "D:\Program Files (x86)\Python34\lib\http\client.py", line 898, in send
+    self.connect()
+  File "D:\Program Files (x86)\Python34\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "D:\Program Files (x86)\Python34\lib\site-packages\urllib3\connection.py", line 168, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000000000D107A20>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python34\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Program Files (x86)\Python34\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\Program Files (x86)\Python34\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/login?pwd=123456&mobilephone=18688773467 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000D107A20>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Project\MOOC\Lemon\Python_Base\Lesson18_conf_ddt_20181205\Lesson18_1203作业讲解_api_auto_test_20181203\test_http_request_20181205.py", line 28, in test_api
+    res = Http_Request().http_request(self.url,self.param,self.http_method,COOKIES) # 创建实例对象，调用对象方法
+  File "D:\Project\MOOC\Lemon\Python_Base\Lesson18_conf_ddt_20181205\Lesson18_1203作业讲解_api_auto_test_20181203\http_request_20181205.py", line 14, in http_request
+    res = requests.get(url,param,cookies = cookies)  # cookies=cookies ???
+  File "D:\Program Files (x86)\Python34\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Program Files (x86)\Python34\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Program Files (x86)\Python34\lib\site-packages\requests\sessions.py", line 524, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Program Files (x86)\Python34\lib\site-packages\requests\sessions.py", line 637, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Program Files (x86)\Python34\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='47.107.168.87', port=8080): Max retries exceeded with url: /futureloan/mvc/api/member/login?pwd=123456&mobilephone=18688773467 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000D107A20>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',))
+
+======================================================================
+FAIL: test_api (Lemon.Python_Base.Lesson18_conf_ddt_20181205.Lesson18_1203作业讲解_api_auto_test_20181203.test_http_request_20181205.TestHttpRequest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\JetBrains\PyCharm Community Edition 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Program Files (x86)\Python34\lib\unittest\case.py", line 800, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Program Files (x86)\Python34\lib\unittest\case.py", line 793, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 20111 != '20111'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Project\MOOC\Lemon\Python_Base\Lesson18_conf_ddt_20181205\Lesson18_1203作业讲解_api_auto_test_20181203\test_http_request_20181205.py", line 37, in test_api
+    raise e
+  File "D:\Project\MOOC\Lemon\Python_Base\Lesson18_conf_ddt_20181205\Lesson18_1203作业讲解_api_auto_test_20181203\test_http_request_20181205.py", line 34, in test_api
+    self.assertEqual(self.expected, res.json()['code'])  # 这里的self怎么用？复盘复盘复盘！！！
+  File "D:\Program Files (x86)\JetBrains\PyCharm Community Edition 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 20111 != 20111
+
+======================================================================
+FAIL: test_api (Lemon.Python_Base.Lesson18_conf_ddt_20181205.Lesson18_1203作业讲解_api_auto_test_20181203.test_http_request_20181205.TestHttpRequest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\JetBrains\PyCharm Community Edition 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Program Files (x86)\Python34\lib\unittest\case.py", line 800, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Program Files (x86)\Python34\lib\unittest\case.py", line 793, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 20111 != '20111'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Project\MOOC\Lemon\Python_Base\Lesson18_conf_ddt_20181205\Lesson18_1203作业讲解_api_auto_test_20181203\test_http_request_20181205.py", line 37, in test_api
+    raise e
+  File "D:\Project\MOOC\Lemon\Python_Base\Lesson18_conf_ddt_20181205\Lesson18_1203作业讲解_api_auto_test_20181203\test_http_request_20181205.py", line 34, in test_api
+    self.assertEqual(self.expected, res.json()['code'])  # 这里的self怎么用？复盘复盘复盘！！！
+  File "D:\Program Files (x86)\JetBrains\PyCharm Community Edition 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 20111 != 20111
+
+======================================================================
+FAIL: test_api (Lemon.Python_Base.Lesson18_conf_ddt_20181205.Lesson18_1203作业讲解_api_auto_test_20181203.test_http_request_20181205.TestHttpRequest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\JetBrains\PyCharm Community Edition 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Program Files (x86)\Python34\lib\unittest\case.py", line 800, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Program Files (x86)\Python34\lib\unittest\case.py", line 793, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 10001 != None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Project\MOOC\Lemon\Python_Base\Lesson18_conf_ddt_20181205\Lesson18_1203作业讲解_api_auto_test_20181203\test_http_request_20181205.py", line 37, in test_api
+    raise e
+  File "D:\Project\MOOC\Lemon\Python_Base\Lesson18_conf_ddt_20181205\Lesson18_1203作业讲解_api_auto_test_20181203\test_http_request_20181205.py", line 34, in test_api
+    self.assertEqual(self.expected, res.json()['code'])  # 这里的self怎么用？复盘复盘复盘！！！
+  File "D:\Program Files (x86)\JetBrains\PyCharm Community Edition 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 10001 != None
+
+======================================================================
+FAIL: test_api (Lemon.Python_Base.Lesson18_conf_ddt_20181205.Lesson18_1203作业讲解_api_auto_test_20181203.test_http_request_20181205.TestHttpRequest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\JetBrains\PyCharm Community Edition 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Program Files (x86)\Python34\lib\unittest\case.py", line 800, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Program Files (x86)\Python34\lib\unittest\case.py", line 793, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 20111 != None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Project\MOOC\Lemon\Python_Base\Lesson18_conf_ddt_20181205\Lesson18_1203作业讲解_api_auto_test_20181203\test_http_request_20181205.py", line 37, in test_api
+    raise e
+  File "D:\Project\MOOC\Lemon\Python_Base\Lesson18_conf_ddt_20181205\Lesson18_1203作业讲解_api_auto_test_20181203\test_http_request_20181205.py", line 34, in test_api
+    self.assertEqual(self.expected, res.json()['code'])  # 这里的self怎么用？复盘复盘复盘！！！
+  File "D:\Program Files (x86)\JetBrains\PyCharm Community Edition 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 20111 != None
+
+======================================================================
+FAIL: test_api (Lemon.Python_Base.Lesson18_conf_ddt_20181205.Lesson18_1203作业讲解_api_auto_test_20181203.test_http_request_20181205.TestHttpRequest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\JetBrains\PyCharm Community Edition 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Program Files (x86)\Python34\lib\unittest\case.py", line 800, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Program Files (x86)\Python34\lib\unittest\case.py", line 793, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 20111 != None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Project\MOOC\Lemon\Python_Base\Lesson18_conf_ddt_20181205\Lesson18_1203作业讲解_api_auto_test_20181203\test_http_request_20181205.py", line 37, in test_api
+    raise e
+  File "D:\Project\MOOC\Lemon\Python_Base\Lesson18_conf_ddt_20181205\Lesson18_1203作业讲解_api_auto_test_20181203\test_http_request_20181205.py", line 34, in test_api
+    self.assertEqual(self.expected, res.json()['code'])  # 这里的self怎么用？复盘复盘复盘！！！
+  File "D:\Program Files (x86)\JetBrains\PyCharm Community Edition 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 20111 != None
+
+----------------------------------------------------------------------
+Ran 6 tests in 45.019s
+
+FAILED (failures=5, errors=1)
+test_api (Lemon.Python_Base.Lesson18_conf_ddt_20181205.Lesson18_1203作业讲解_api_auto_test_20181203.test_http_request_20181205.TestHttpRequest) ... FAIL
+test_api (Lemon.Python_Base.Lesson18_conf_ddt_20181205.Lesson18_1203作业讲解_api_auto_test_20181203.test_http_request_20181205.TestHttpRequest) ... FAIL
+test_api (Lemon.Python_Base.Lesson18_conf_ddt_20181205.Lesson18_1203作业讲解_api_auto_test_20181203.test_http_request_20181205.TestHttpRequest) ... FAIL
+test_api (Lemon.Python_Base.Lesson18_conf_ddt_20181205.Lesson18_1203作业讲解_api_auto_test_20181203.test_http_request_20181205.TestHttpRequest) ... FAIL
+test_api (Lemon.Python_Base.Lesson18_conf_ddt_20181205.Lesson18_1203作业讲解_api_auto_test_20181203.test_http_request_20181205.TestHttpRequest) ... FAIL
+test_api (Lemon.Python_Base.Lesson18_conf_ddt_20181205.Lesson18_1203作业讲解_api_auto_test_20181203.test_http_request_20181205.TestHttpRequest) ... FAIL
+
+======================================================================
+FAIL: test_api (Lemon.Python_Base.Lesson18_conf_ddt_20181205.Lesson18_1203作业讲解_api_auto_test_20181203.test_http_request_20181205.TestHttpRequest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\JetBrains\PyCharm Community Edition 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Program Files (x86)\Python34\lib\unittest\case.py", line 800, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Program Files (x86)\Python34\lib\unittest\case.py", line 1173, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Program Files (x86)\Python34\lib\unittest\case.py", line 645, in fail
+    raise self.failureException(msg)
+AssertionError: "10001'" != '10001'
+- 10001'
+?      -
++ 10001
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Project\MOOC\Lemon\Python_Base\Lesson18_conf_ddt_20181205\Lesson18_1203作业讲解_api_auto_test_20181203\test_http_request_20181205.py", line 37, in test_api
+    raise e
+  File "D:\Project\MOOC\Lemon\Python_Base\Lesson18_conf_ddt_20181205\Lesson18_1203作业讲解_api_auto_test_20181203\test_http_request_20181205.py", line 34, in test_api
+    self.assertEqual(str(self.expected), res.json()['code'])  # 这里的self怎么用？复盘复盘复盘！！！
+  File "D:\Program Files (x86)\JetBrains\PyCharm Community Edition 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 10001' != 10001
+
+======================================================================
+FAIL: test_api (Lemon.Python_Base.Lesson18_conf_ddt_20181205.Lesson18_1203作业讲解_api_auto_test_20181203.test_http_request_20181205.TestHttpRequest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\JetBrains\PyCharm Community Edition 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Program Files (x86)\Python34\lib\unittest\case.py", line 800, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Program Files (x86)\Python34\lib\unittest\case.py", line 1173, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Program Files (x86)\Python34\lib\unittest\case.py", line 645, in fail
+    raise self.failureException(msg)
+AssertionError: "20111'" != '20111'
+- 20111'
+?      -
++ 20111
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Project\MOOC\Lemon\Python_Base\Lesson18_conf_ddt_20181205\Lesson18_1203作业讲解_api_auto_test_20181203\test_http_request_20181205.py", line 37, in test_api
+    raise e
+  File "D:\Project\MOOC\Lemon\Python_Base\Lesson18_conf_ddt_20181205\Lesson18_1203作业讲解_api_auto_test_20181203\test_http_request_20181205.py", line 34, in test_api
+    self.assertEqual(str(self.expected), res.json()['code'])  # 这里的self怎么用？复盘复盘复盘！！！
+  File "D:\Program Files (x86)\JetBrains\PyCharm Community Edition 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 20111' != 20111
+
+======================================================================
+FAIL: test_api (Lemon.Python_Base.Lesson18_conf_ddt_20181205.Lesson18_1203作业讲解_api_auto_test_20181203.test_http_request_20181205.TestHttpRequest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\JetBrains\PyCharm Community Edition 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Program Files (x86)\Python34\lib\unittest\case.py", line 800, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Program Files (x86)\Python34\lib\unittest\case.py", line 1173, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Program Files (x86)\Python34\lib\unittest\case.py", line 645, in fail
+    raise self.failureException(msg)
+AssertionError: "20111'" != '20111'
+- 20111'
+?      -
++ 20111
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Project\MOOC\Lemon\Python_Base\Lesson18_conf_ddt_20181205\Lesson18_1203作业讲解_api_auto_test_20181203\test_http_request_20181205.py", line 37, in test_api
+    raise e
+  File "D:\Project\MOOC\Lemon\Python_Base\Lesson18_conf_ddt_20181205\Lesson18_1203作业讲解_api_auto_test_20181203\test_http_request_20181205.py", line 34, in test_api
+    self.assertEqual(str(self.expected), res.json()['code'])  # 这里的self怎么用？复盘复盘复盘！！！
+  File "D:\Program Files (x86)\JetBrains\PyCharm Community Edition 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 20111' != 20111
+
+======================================================================
+FAIL: test_api (Lemon.Python_Base.Lesson18_conf_ddt_20181205.Lesson18_1203作业讲解_api_auto_test_20181203.test_http_request_20181205.TestHttpRequest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\JetBrains\PyCharm Community Edition 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Program Files (x86)\Python34\lib\unittest\case.py", line 800, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Program Files (x86)\Python34\lib\unittest\case.py", line 1173, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Program Files (x86)\Python34\lib\unittest\case.py", line 645, in fail
+    raise self.failureException(msg)
+AssertionError: "10001'" != '10001'
+- 10001'
+?      -
++ 10001
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Project\MOOC\Lemon\Python_Base\Lesson18_conf_ddt_20181205\Lesson18_1203作业讲解_api_auto_test_20181203\test_http_request_20181205.py", line 37, in test_api
+    raise e
+  File "D:\Project\MOOC\Lemon\Python_Base\Lesson18_conf_ddt_20181205\Lesson18_1203作业讲解_api_auto_test_20181203\test_http_request_20181205.py", line 34, in test_api
+    self.assertEqual(str(self.expected), res.json()['code'])  # 这里的self怎么用？复盘复盘复盘！！！
+  File "D:\Program Files (x86)\JetBrains\PyCharm Community Edition 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 10001' != 10001
+
+======================================================================
+FAIL: test_api (Lemon.Python_Base.Lesson18_conf_ddt_20181205.Lesson18_1203作业讲解_api_auto_test_20181203.test_http_request_20181205.TestHttpRequest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\JetBrains\PyCharm Community Edition 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Program Files (x86)\Python34\lib\unittest\case.py", line 800, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Program Files (x86)\Python34\lib\unittest\case.py", line 1173, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Program Files (x86)\Python34\lib\unittest\case.py", line 645, in fail
+    raise self.failureException(msg)
+AssertionError: "20111'" != '20109'
+- 20111'
++ 20109
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Project\MOOC\Lemon\Python_Base\Lesson18_conf_ddt_20181205\Lesson18_1203作业讲解_api_auto_test_20181203\test_http_request_20181205.py", line 37, in test_api
+    raise e
+  File "D:\Project\MOOC\Lemon\Python_Base\Lesson18_conf_ddt_20181205\Lesson18_1203作业讲解_api_auto_test_20181203\test_http_request_20181205.py", line 34, in test_api
+    self.assertEqual(str(self.expected), res.json()['code'])  # 这里的self怎么用？复盘复盘复盘！！！
+  File "D:\Program Files (x86)\JetBrains\PyCharm Community Edition 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 20111' != 20109
+
+======================================================================
+FAIL: test_api (Lemon.Python_Base.Lesson18_conf_ddt_20181205.Lesson18_1203作业讲解_api_auto_test_20181203.test_http_request_20181205.TestHttpRequest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\JetBrains\PyCharm Community Edition 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\Program Files (x86)\Python34\lib\unittest\case.py", line 800, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Program Files (x86)\Python34\lib\unittest\case.py", line 1173, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Program Files (x86)\Python34\lib\unittest\case.py", line 645, in fail
+    raise self.failureException(msg)
+AssertionError: "20111'" != '20117'
+- 20111'
+?     ^^
++ 20117
+?     ^
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Project\MOOC\Lemon\Python_Base\Lesson18_conf_ddt_20181205\Lesson18_1203作业讲解_api_auto_test_20181203\test_http_request_20181205.py", line 37, in test_api
+    raise e
+  File "D:\Project\MOOC\Lemon\Python_Base\Lesson18_conf_ddt_20181205\Lesson18_1203作业讲解_api_auto_test_20181203\test_http_request_20181205.py", line 34, in test_api
+    self.assertEqual(str(self.expected), res.json()['code'])  # 这里的self怎么用？复盘复盘复盘！！！
+  File "D:\Program Files (x86)\JetBrains\PyCharm Community Edition 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 20111' != 20117
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.456s
+
+FAILED (failures=6)

@@ -1,0 +1,12 @@
+2018-12-09 22:18:15,484-INFO-Lesson19_logging_20181207.py-Hester-��־��Ϣ:Nicky,����һ��info��Ϣ
+2018-12-09 22:18:15,487-WARNING-Lesson19_logging_20181207.py-Hester-��־��Ϣ:David,����һ��waring��Ϣ
+2018-12-09 22:18:15,488-ERROR-Lesson19_logging_20181207.py-Hester-��־��Ϣ:404������һ��error��Ϣ
+2018-12-09 22:18:15,488-CRITICAL-Lesson19_logging_20181207.py-Hester-��־��Ϣ:·�˼ף�����һ��critical��Ϣ
+2018-12-09 22:18:51,411-INFO-Lesson19_logging_20181207.py-Hester-日志信息:Nicky,这是一个info信息
+2018-12-09 22:18:51,411-WARNING-Lesson19_logging_20181207.py-Hester-日志信息:David,这是一个waring信息
+2018-12-09 22:18:51,412-ERROR-Lesson19_logging_20181207.py-Hester-日志信息:404，这是一个error信息
+2018-12-09 22:18:51,414-CRITICAL-Lesson19_logging_20181207.py-Hester-日志信息:路人甲，这是一个critical信息
+2018-12-09 22:19:07,901-INFO-Lesson19_logging_20181207.py-Hester-日志信息:Nicky,这是一个info信息
+2018-12-09 22:19:07,901-WARNING-Lesson19_logging_20181207.py-Hester-日志信息:David,这是一个waring信息
+2018-12-09 22:19:07,901-ERROR-Lesson19_logging_20181207.py-Hester-日志信息:404，这是一个error信息
+2018-12-09 22:19:07,901-CRITICAL-Lesson19_logging_20181207.py-Hester-日志信息:路人甲，这是一个critical信息
