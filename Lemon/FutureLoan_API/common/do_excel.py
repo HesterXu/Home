@@ -67,7 +67,7 @@ class DoExcel:
 
 if __name__ == '__main__':
     # 测试DoExcel类
-    do_excel = DoExcel(file_name='../datas/cases.xlsx')  # 实例化一个DoExcel对象
+    do_excel = DoExcel(file_name='../datas/cases.xlsx')       # 实例化一个DoExcel对象
     sheet_names = do_excel.get_sheet_names()                    # 获取到workbook里面所有的sheet名称的列表
     print("sheet名称列表：", sheet_names)
     case_list = ['register']               # 定义一个执行测试用例的列表

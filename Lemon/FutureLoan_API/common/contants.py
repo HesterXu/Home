@@ -23,7 +23,7 @@ configs_dir = os.path.join(base_dir,'configs')
 
 # datas文件夹路径
 datas_dir = os.path.join(base_dir,'datas')
-
+case_file = os.path.join(datas_dir,'cases.xlsx')
 # logs文件夹路径
 logs_dir = os.path.join(base_dir,'logs')
 

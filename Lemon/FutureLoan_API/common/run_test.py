@@ -19,7 +19,7 @@ from Lemon.FutureLoan_API.common.request import Request
 do_excel = DoExcel(file_name='../datas/cases.xlsx')  # 实例化一个DoExcel对象
 sheet_names = do_excel.get_sheet_names()                    # 获取到workbook里面所有的sheet名称的列表
 print("sheet名称列表：", sheet_names)
-case_list = ['register']               # 定义一个执行测试用例的列表
+case_list = ['login']               # 定义一个执行测试用例的列表
 for sheet_name in sheet_names:
     if sheet_name in case_list:   # 当前的sheet_name不在可执行的case_list里面，就不执行
         cases = do_excel.get_cases(sheet_name)   # 测试用例列表,由一个个Case对象/实例组成
